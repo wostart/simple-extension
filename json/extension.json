@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "name": "Tampermonkey：用户脚本管理器（油猴）",
+        "short_detail": "Tampermonkey 油猴脚本可以在任意网页上管理和运行指定脚本的脚本管理器。",
+        "detail": "Tampermonkey 是一款免费的浏览器扩展和最为流行的用户脚本管理器，它适用于 Chrome, Microsoft Edge, Safari, Opera Next, 和 Firefox。虽然有些受支持的浏览器拥有原生的用户脚本支持，但 Tampermonkey 将在您的用户脚本管理方面提供更多的便利。 它提供了诸如便捷脚本安装、自动更新检查、标签中的脚本运行状况速览、内置的编辑器等众多功能， 同时Tampermonkey还有可能正常运行原本并不兼容的脚本。",
+        "website": "https://tampermonkey.net/"
+    },
+    {
+        "id":2,
+        "name": "Adblock Plus 广告拦截",
+        "short_detail": "Adblock Plus可以拦截网站上的弹出窗口和烦人的广告。",
+        "detail": "Adblock Plus 是一个可让您自定义您的网络体验的免费扩展程序。您可以屏蔽烦人的广告、防止跟踪等等。它适用于所有主要的桌面浏览器和移动设备。Adblock Plus 是根据 GPLv3 许可的开源项目，受其使用条款的约束。",
+        "website": "https://adblockplus.org/"
+    },
+    {
+        "id":3,
+        "name": "写作猫浏览器插件",
+        "short_detail": "写作猫是新一代AI写作伴侣，可以帮你推敲用语、斟酌文法、改写文风，还能实时同步翻译。",
+        "detail": "写作猫是新一代AI写作伴侣，帮你推敲用语、斟酌文法、改写文风，还能实时同步翻译。在任何网站进入编辑框后，会自动进行校对，并用下划线标出错误。写作猫是新一代AI写作伴侣，帮你推敲用语、斟酌文法、改写文风，还能实时同步翻译。在任何网站进入编辑框后，会自动进行校对，并用下划线标出错误。",
+        "website": "https://xiezuocat.com/"
+    },
+    {
+        "id":4,
+        "name": "Saladict 沙拉查词",
+        "short_detail": "Saladict是一个很好用的网页划词翻译Chrome插件，中文名沙拉查词。",
+        "detail": "Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。",
+        "website": "https://saladict.crimx.com/"
+    },
+    {
+        "id":5,
+        "name": "Momentum 新标签页",
+        "short_detail": "颜值就是正义！",
+        "detail": "Momentum拥有超过300万用户。超漂亮的新标签页面。每日更新精彩背景壁纸图片，可设置每日新鲜事焦点，跟踪待办事项。",
+        "website": "https://momentumdash.com/"
+    },
+    {
+        "id":6,
+        "name": "ABCD PDF",
+        "short_detail": "使用它快速轻松地处理PDF",
+        "detail": "这是来自Chrome商店的 ABCD PDF 浏览器插件，您可以在当前页面下载它的最新版本安装文件，并安装在Chrome、Edge等浏览器上。",
+        "website": "https://abcdpdf.com"
+    },
+    {
+        "id":7,
+        "name": "Google 翻译（谷歌网页翻译）",
+        "short_detail": "翻译您的网页",
+        "detail": "Google翻译是一款由谷歌公司提供的网页划词翻译插件，是Google Chrome的翻译扩展工具，由Google官方发布。安装后，会在Chrome浏览器菜单栏中添加一个按钮，可以方便的在任何时候点击翻译你当前正在访问的页面。",
+        "website": "http://translate.google.com/"
+    },
+    {
+        "id":8,
+        "name": "彩云小译 - 网页翻译插件",
+        "short_detail": "小译双语对照网页翻译插件，一键高效获取母语阅读体验。",
+        "detail": "用母语畅游外网，小译帮你推倒巴别塔，打开新世界的大门！如果你觉得你外语水平不够好，小译帮你轻松用母语阅读打破语言障碍，如果你觉得你外语水平还不错，小译也能帮你加速阅读，同样的时间你可以用来获取更多有趣的国外信息。",
+        "website": "https://fanyi.caiyunapp.com/"
+    },
+    {
+        "id":9,
+        "name": "Chrono Chrome下载管理器",
+        "short_detail": "做Chrome浏览器中最好的下载管理器",
+        "detail": "chrono下载管理器是Chrome™浏览器下第一款也是唯一一款功能全面的下载管理工具。chrono接管你在Chrome™中的所有下载，你的所有下载管理工作都在浏览器中完成，而不需要安装另外的程序。chrono与Chrome™浏览器紧密地整合在一起，添加了对浏览器菜单、工具栏和快捷键的支持。除了高效管理下载任务，chrono也是你下载视频或批量下载图片的最好帮助工具。chrono资源嗅探器可以检测网页上的所有链接、图片、音频和视频，你还可以根据链接的文件类型或正则表达式来筛选你要下载的地址。",
+        "website": "https://www.chronodownloader.net/"
+    },
+    {
+        "id":10,
+        "name": "Dark Theme 黑暗模式",
+        "short_detail": "Dark Theme黑暗模式是一款Chrome浏览器暗色主题背景。",
+        "detail": "给Chrome开启护眼模式，夜间使用保护视力，界面简洁美观，支持定时模式自动开启、支持多种颜色和自定义遮罩级别。",
+        "website": "https://nightshift.lu"
+    },
+    {
+        "id":11,
+        "name": "Muzli 2 灵感",
+        "short_detail": "Muzli 2是一款自定义设计网站列表的设计师必备的浏览器插件",
+        "detail": "关于设计和交互的最新集合，收录子互联网。设计师的必备品！简单而美观。为您带来最新的设计、用户界面、用户体验和交互式新闻和网络快照。所有你需要的设计灵感。享受纯粹之美。Muzli将替换您的默认选项卡，它将成为您的主页，这样您就不会错过任何东西。",
+        "website": "https://muz.li"
+    },
+    {
+        "id":12,
+        "name": "AdGuard 广告拦截器",
+        "short_detail": "AdGuard 广告拦截器可有效的拦截所有网页上的所有类型的广告，甚至是在 Facebook、Youtube 以及其他万千网站上的广告！",
+        "detail": "1. 拦截所有广告，包括：（1）视频广告（包括 Youtube 视频广告）；（2）各种媒体广告，例如视频广告，插播广告和浮动广告；（3）令人讨厌的弹窗；（4）横幅广告和文字广告（包括 Facebook 广告）。2. 加速页面载入，节省带宽，屏蔽广告和弹窗。3. 拦截各种间谍软件，广告软件和拨号安装程序（可选）。4. 通过拦截常见第三方跟踪系统保护您的隐私（可选）。5. 保护您对抗恶意和钓鱼攻击（可选）",
+        "website": "https://adguard.com/"
+    },
+    {
+        "id":13,
+        "name": "WEB前端助手(FeHelper)",
+        "short_detail": "前端实用工具集，谁用谁知道！",
+        "detail": "JSON自动美化（页面自动检测并格式化）、JSON手动美化（粘贴文本、手动格式化）、JSON比对工具（支持左右两个JSON片段进行键值对比较）、字符串编解码（Unicode/UTF8/Base64/MD5/HEX）、代码美化工具（HTML/CSS/JS/XML/SQL）",
+        "website": "https://www.baidufe.com/fehelper"
+    },
+    {
+        "id":14,
+        "name": "Mate Translate 翻译器 词典",
+        "short_detail": "Mate Translate插件一站式翻译您的网页、标记的文字段落和 Netflix 影集字幕。快速翻译和学习多达 103 种语言。",
+        "detail": "Mate Translate 是一款词典翻译类插件，可轻松翻译 103 种语言的单词、短语或文件。功能包含 [全页翻译]: 只要单击鼠标，Mate 就会为您翻译整个网页！在任何页面上，只要使用上下文菜单中的“翻译此页面”功能，就可立即翻译为您想要的语言。[同步]: Mate 可以将您所有设备上的翻译记录进行同步。无论是翻译记录还是查找的词典数据，都将在您有使用 Mate 的所有浏览器、iPhone 和 Mac 之间自动进行同步。[短语集]: Mate 允许您根据最喜欢的主题来创建单词集。您可以轻松创建和管理单词列表，即使离线时也可使用。这项功能非常适合语言学习者或旅行者，因为他们总是需要查找特定的单词。试试我们的 Mate 短语集吧！",
+        "website": "https://gikken.co/mate-translate"
+    },
+    {
+        "id":15,
+        "name": "Pixiv Toolkit 工具箱",
+        "short_detail": "",
+        "detail": "一个用于将P站动图转化成gif或webm格式，将漫画打包下载和下载小说的工具包。转化Pixiv上的动图为 GIF 或者 WebM 文件，并且能够打包下载Pixiv上的漫画。扩展程序还可以保存你的动图和漫画访问历史记录以提供给你查看（最多可以存1万条记录）。注意！！！插件将会在登录Pixiv后正常工作。如果你有任何问题请在我的Github上提交问题，我会尽快跟进，谢谢。一个独立的Pixiv下载作品工具Pixiv Omina已经发布啦！它有着易用的界面和很多实用的功能，你应该试一试它",
+        "website": "https://github.com/leoding86/webextension-pixiv-toolkit"
+    },
+    {
+        "id":16,
+        "name": "Notebook Web Clipper",
+        "short_detail": "Zoho Notebook Web Clipper是一款可以从网络剪辑文字，图片和整个文章并全部保存到你的笔记本上的chrome插件。",
+        "detail": "阅读模式加网页剪藏，一个插件包含多个丰富功能，未登录状态点击插件即可立即开启阅读模式，类似于手机上的阅读模式，将整个页面转换成更适合阅读的文本模式，去除多余的元素或广告，沉浸式阅读体验。在注册登录后，可开启剪藏功能，可以选择整个页面关键内容缩放剪藏、页面内链接剪藏、或是图片、截图剪藏，在以后需要的时候回看剪藏的内容，简单且更高效的网上冲浪。",
+        "website": "https://notebook.zoho.com"
+    }
+]

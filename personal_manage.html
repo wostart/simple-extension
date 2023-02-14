@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="js/jquery-ui-1.13.0.custom/jquery-ui.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/personal_manage.css">
+    <!-- 引入jQuery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- 引入jquery-ui -->
+    <script src="js/jquery-ui-1.13.0.custom/jquery-ui.js"></script>
+    <!-- 引入jQuery.md5 -->
+    <script src="js/jquery.md5.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/personal_manage.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container clearfix">
+            <h2 class="logo">
+                <img src="img/site_icon.png">
+                <a href="#" title="name">简易插件</a>
+            </h2>
+            <ul class="nav-main">
+                <li><a href="index.html">首页</a></li>
+                <li class="li-item-has-children">
+                    <a href="category.html">所有插件</a>
+                    <ul class="sub-menu">
+                        <li><a href="category.html?id=1">社交通讯</a></li>
+                        <li><a href="category.html?id=2">游戏娱乐</a></li>
+                        <li><a href="category.html?id=3">生产工具</a></li>
+                        <li><a href="category.html?id=4">开发工具</a></li>
+                        <li><a href="category.html?id=5">搜索工具</a></li>
+                        <li><a href="category.html?id=6">新闻天气</a></li>
+                    </ul>
+                </li>
+                <li class="li-item-has-children">
+                    <a href="#">开发者插件</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">代码编辑</a></li>
+                        <li><a href="#">代码美化</a></li>
+                        <li><a href="#">代码格式化</a></li>
+                        <li><a href="#">自动补全</a></li>
+                        <li><a href="#">源码管理</a></li>
+                        <li><a href="#">开发辅助</a></li>
+                        <!-- <li><a href="#">默认</a></li> -->
+                    </ul>
+                </li>
+                <li class="li-item-has-children">
+                    <a href="#">媒体插件</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">照片编辑</a></li>
+                        <li><a href="#">音频播放</a></li>
+                        <li><a href="#">视频下载</a></li>
+                        <!-- <li><a href="#">二级菜单</a></li>
+                        <li><a href="#">二级菜单</a></li>
+                        <li><a href="#">二级菜单</a></li> -->
+                    </ul>
+                </li>
+                <li class="li-item-has-children">
+                    <a href="#">其他插件</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">脚本管理</a></li>
+                        <li><a href="#">网页翻译</a></li>
+                        <li><a href="#">资源获取</a></li>
+                        <li><a href="#">广告拦截</a></li>
+                        <li><a href="#">密码管理</a></li>
+                        <li><a href="#">视觉优化</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="liuyanban.html">留言板</a>
+                </li>
+            </ul>
+            <ul class="nav-right">
+                <li class="nav-search">
+                    <input type="text" placeholder="Search...">
+                </li>
+                <li class="nav-login no-login">
+                    <img src="img/User.png" alt="">
+                    <div class="ok-login">
+                        <span display="none" class="login-name"></span>
+                        <ul class="sub-menu">
+                            <li><a href="personal_manage.html">个人中心</a></li>
+                            <li class="forgot-password"><a href="#">修改密码</a></li>
+                            <li class="logout"><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="signin-loader">
+                            <span>登录</span>
+                        </a>
+                        <b class="nav-line"></b>
+                        <a href="#" class="signup-loader"><span>注册</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container row">
+        <div class="col-1">
+            <!-- <h3>个人资料</h3> -->
+            <img src="img/User.png" alt="">
+            <h1></h1>
+            <input type="button" class="forgot-password" value="修改密码">
+            <!-- 用户名name -->
+            <!-- 密码password -->
+            <!-- 邮箱地址email -->
+            <!-- 性别gender -->
+            <!-- 个性签名(say) -->
+            <!-- 手机号 -->
+            <!-- 家庭地址(address) -->
+            <!-- qq账号 -->
+        </div>
+        <div class="col-2">
+            <h2>个人资料</h2></span>
+            <label><span>用户名：</span><input type="text" disabled="disabled" class="input-name"></label>
+            <label><span>性别：</span><input type="text" class="input-gender" placeholder="填入男/女"></label>
+            <label><span>邮箱地址：</span><input type="text" class="input-email"  placeholder="you@email.com"></label>
+            <label><span>个性签名：</span><textarea class="textarea-say"></textarea></label>
+            <label><span>手机号：</span><input type="text" class="input-phone"></label>
+            <label><span>家庭地址：</span><input type="text" class="input-address"></label>
+            <label><span>QQ：</span><input type="text" class="input-qq"></label>
+            <input type="button" class="check-submit" value="确定">
+        </div>
+    </div>
+    <div class="signin-dialog login-dialog" title="登录">
+        <input type="text" class="username" placeholder="用户名">
+        <input type="password" class="password" placeholder="密码">
+        <div class="ui-state-error ui-corner-all tip">
+            <p><span class="ui-icon ui-icon-alert"></span>
+            <strong></strong></p>
+        </div>
+        <input type="button" class="login-btn" value="登录">
+        <a href="#" class="forgot-password">忘记密码</a>
+        <span>没有账号？<a href="#" class="signup">立即注册</a></span>
+    </div>
+    <div class="signup-dialog login-dialog" title="注册">
+        <input type="text" class="username" placeholder="用户名">
+        <input type="password" class="password" placeholder="密码">
+        <input type="password" class="again_password" placeholder="再次输入密码">
+        <div class="ui-state-error ui-corner-all tip">
+            <p><span class="ui-icon ui-icon-alert"></span>
+            <strong></strong></p>
+        </div>
+        <input type="button" class="signup-btn" value="注册">
+        <span>已有账号？<a href="#" class="signin">立即登录</a></span>
+    </div>
+    <div class="forgot-password-dialog login-dialog" title="忘记/修改密码">
+        <input type="text" class="username" placeholder="用户名">
+        <input type="password" class="password" placeholder="原密码">
+        <input type="password" class="new_password" placeholder="新密码">
+        <!-- <span class="ui-state-error ui-corner-all">两次密码不一致!</span> -->
+        <input type="password" class="again_new_password" placeholder="再次输入新密码">
+        <div class="ui-state-error ui-corner-all tip">
+            <p><span class="ui-icon ui-icon-alert"></span>
+            <strong></strong></p>
+        </div>
+        <input type="button" class="forgot-password-btn" value="确定">
+    </div>
+</body>
+</html>

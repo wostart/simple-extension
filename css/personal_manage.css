@@ -1,0 +1,90 @@
+.col-1,
+.col-2 {
+    float: left;
+    height: 980px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.col-1 {
+    padding-top: 40px;
+    width: 360px;
+}
+
+.col-2 {
+    width: 800px;
+    margin-left: 20px;
+    padding: 40px;
+}
+
+.col-1 img {
+    width: 144px;
+    height: 144px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    background: #eaeaea;
+}
+
+.col-1 h1 {
+    text-align: center;
+}
+
+.col-1 input[type="button"],
+.col-2 input[type="button"]{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background: #03a9f4;
+    box-shadow: 0px 6px 45px 2px #03a9d7c7;
+}
+
+
+.col-1 input[type="button"]:hover,
+.col-2 input[type="button"]:hover {
+    box-shadow: 0px 6px 45px 2px #1687bac7;
+}
+
+.col-1 input[type="button"]:active,
+.col-2 input[type="button"]:active {
+    box-shadow: 0px 6px 45px 6px #03a9d7c7;
+}
+
+.col-2 label {
+    display: block;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.col-2 label span {
+    float: left;
+    width: 150px;
+    font-size: 30px;
+}
+
+.col-2 label input,
+.col-2 label textarea {
+    height: 44px;
+    display: block;
+    font-size: 24px;
+    border: 1px solid #5b5d5e;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.col-2 label textarea {
+    height: 150px;
+    display: block;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.col-2 input[type="button"]{
+    margin-left: 0px;
+}
